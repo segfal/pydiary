@@ -3,7 +3,7 @@ if __name__ == '__main__':
     arr = map(int, input().split())
     arr = list(arr)
     x = max(list(arr))
-    u = -1
+    u = float('-inf')
     for i in arr:
         if i != x:
             u = max(i,u)
